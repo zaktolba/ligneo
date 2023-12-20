@@ -23,8 +23,8 @@
 		E355E9182B3385450010C062 /* SHA256+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9072B3384980010C062 /* SHA256+Extension.swift */; };
 		E355E9192B3385470010C062 /* MKMapItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9082B3384980010C062 /* MKMapItem+Extension.swift */; };
 		E355E91A2B3385490010C062 /* CLGeocoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9092B3384980010C062 /* CLGeocoder+Extension.swift */; };
-		E355E91B2B3385F20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */; };
-		E355E91C2B3385F50010C062 /* bus_timetable_113_givors_venissieux.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */; };
+		E355E9232B338BEC0010C062 /* bus_timetable_113_givors_venissieux.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E9222B338BEC0010C062 /* bus_timetable_113_givors_venissieux.json */; };
+		E355E9252B338BF20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E9242B338BF20010C062 /* bus_timetable_113_venissieux_givors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		E355E9092B3384980010C062 /* CLGeocoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+Extension.swift"; sourceTree = "<group>"; };
 		E355E90B2B3384A00010C062 /* MapDataResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataResults.swift; sourceTree = "<group>"; };
 		E355E90C2B3384E70010C062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bus_timetable_113_givors_venissieux.json; sourceTree = "<group>"; };
-		E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bus_timetable_113_venissieux_givors.json; sourceTree = "<group>"; };
+		E355E9222B338BEC0010C062 /* bus_timetable_113_givors_venissieux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus_timetable_113_givors_venissieux.json; sourceTree = "<group>"; };
+		E355E9242B338BF20010C062 /* bus_timetable_113_venissieux_givors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus_timetable_113_venissieux_givors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +164,10 @@
 		E355E9002B33848B0010C062 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E355E9012B33848B0010C062 /* BusStopsListView.swift */,
 				E355E9022B33848B0010C062 /* BusDirectionsListView.swift */,
-				E355E9032B33848B0010C062 /* BusStore.swift */,
+				E355E9012B33848B0010C062 /* BusStopsListView.swift */,
 				E355E9042B33848B0010C062 /* BusStopDetails.swift */,
+				E355E9032B33848B0010C062 /* BusStore.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 		E355E90F2B3384F50010C062 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E355E9242B338BF20010C062 /* bus_timetable_113_venissieux_givors.json */,
+				E355E9222B338BEC0010C062 /* bus_timetable_113_givors_venissieux.json */,
 				E355E90C2B3384E70010C062 /* Assets.xcassets */,
-				E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */,
-				E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -304,10 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E355E91B2B3385F20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */,
 				E355E9102B3385230010C062 /* Assets.xcassets in Resources */,
 				E355E8D02B3383DF0010C062 /* Preview Assets.xcassets in Resources */,
-				E355E91C2B3385F50010C062 /* bus_timetable_113_givors_venissieux.json in Resources */,
+				E355E9232B338BEC0010C062 /* bus_timetable_113_givors_venissieux.json in Resources */,
+				E355E9252B338BF20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

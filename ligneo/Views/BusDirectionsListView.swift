@@ -44,7 +44,7 @@ struct BusDirectionsListView: View {
                                 }
                                 .padding()
                                 .frame(maxWidth: .infinity, maxHeight: 100, alignment: .leading)
-                                .background(.quinary)
+                                .background(.thinMaterial)
                                 .clipShape(RoundedRectangle(cornerRadius: 16))
 
                             })

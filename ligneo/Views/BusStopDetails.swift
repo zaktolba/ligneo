@@ -12,6 +12,7 @@ struct BusStopDetails: View {
     @State var busStop: BusStop
     @State private var isPresentingNewScrumView = false
     @State var lookAroundScene: MKLookAroundScene?
+    @Environment(\.colorScheme) var colorScheme
     
     var lookAroundScenes = MapDataResults<String, MKLookAroundScene?>()
     let columnsConfig = Array(repeating: GridItem(.flexible(), spacing: 10), count: 4)
@@ -65,7 +66,7 @@ struct BusStopDetails: View {
                             
                             Text("\(time)")
                                 .padding()
-                                .background(.quinary)
+                                .background(.regularMaterial)
                                 .clipShape(RoundedRectangle(cornerRadius: 16))
                                 .opacity(busTimeToday < currentDateTime ? 0.4 : 1)
                         }
@@ -74,6 +75,18 @@ struct BusStopDetails: View {
                 .padding(.horizontal, 15)
             }
             .navigationTitle("\(busStop.name)")
+            //            .background(
+            //                LinearGradient(
+            //                    stops: [
+            //                        .init(color: colorScheme == .light ? .white : .black, location: 0.7),
+            //                        .init(color: Color(#colorLiteral(red: 0.8192091584, green: 0.9995033145, blue: 0.7793050408, alpha: 1)), location: 0.1),
+            //                        .init(color: Color(#colorLiteral(red: 0.6287948489, green: 0.8593500853, blue: 0.9951502681, alpha: 1)), location: 0.4),
+            //                    ],
+            //                    startPoint: .bottomTrailing,
+            //                    endPoint: .topLeading
+            //                ).opacity(0.8)
+            //            )
+            //
         }
         
     }
