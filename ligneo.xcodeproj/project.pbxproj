@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E355E8C92B3383DC0010C062 /* ligneoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8C82B3383DC0010C062 /* ligneoApp.swift */; };
-		E355E8CB2B3383DC0010C062 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8CA2B3383DC0010C062 /* ContentView.swift */; };
-		E355E8CD2B3383DF0010C062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E355E8CC2B3383DF0010C062 /* Assets.xcassets */; };
 		E355E8D02B3383DF0010C062 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E355E8CF2B3383DF0010C062 /* Preview Assets.xcassets */; };
 		E355E8DA2B3383DF0010C062 /* ligneoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8D92B3383DF0010C062 /* ligneoTests.swift */; };
 		E355E8E42B3383DF0010C062 /* ligneoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8E32B3383DF0010C062 /* ligneoUITests.swift */; };
 		E355E8E62B3383DF0010C062 /* ligneoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8E52B3383DF0010C062 /* ligneoUITestsLaunchTests.swift */; };
+		E355E9102B3385230010C062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E355E90C2B3384E70010C062 /* Assets.xcassets */; };
+		E355E9112B33852E0010C062 /* BusStopsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9012B33848B0010C062 /* BusStopsListView.swift */; };
+		E355E9122B33852F0010C062 /* BusDirectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9022B33848B0010C062 /* BusDirectionsListView.swift */; };
+		E355E9132B3385310010C062 /* BusStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9032B33848B0010C062 /* BusStore.swift */; };
+		E355E9142B3385330010C062 /* BusStopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9042B33848B0010C062 /* BusStopDetails.swift */; };
+		E355E9152B33853C0010C062 /* BusTimetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8FE2B3384740010C062 /* BusTimetable.swift */; };
+		E355E9162B33853E0010C062 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E8FF2B3384740010C062 /* BusStop.swift */; };
+		E355E9172B3385420010C062 /* MapDataResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E90B2B3384A00010C062 /* MapDataResults.swift */; };
+		E355E9182B3385450010C062 /* SHA256+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9072B3384980010C062 /* SHA256+Extension.swift */; };
+		E355E9192B3385470010C062 /* MKMapItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9082B3384980010C062 /* MKMapItem+Extension.swift */; };
+		E355E91A2B3385490010C062 /* CLGeocoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E355E9092B3384980010C062 /* CLGeocoder+Extension.swift */; };
+		E355E91B2B3385F20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */; };
+		E355E91C2B3385F50010C062 /* bus_timetable_113_givors_venissieux.json in Resources */ = {isa = PBXBuildFile; fileRef = E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +47,25 @@
 /* Begin PBXFileReference section */
 		E355E8C52B3383DC0010C062 /* ligneo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ligneo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E355E8C82B3383DC0010C062 /* ligneoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligneoApp.swift; sourceTree = "<group>"; };
-		E355E8CA2B3383DC0010C062 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E355E8CC2B3383DF0010C062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E355E8CF2B3383DF0010C062 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E355E8D52B3383DF0010C062 /* ligneoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ligneoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E355E8D92B3383DF0010C062 /* ligneoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligneoTests.swift; sourceTree = "<group>"; };
 		E355E8DF2B3383DF0010C062 /* ligneoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ligneoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E355E8E32B3383DF0010C062 /* ligneoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligneoUITests.swift; sourceTree = "<group>"; };
 		E355E8E52B3383DF0010C062 /* ligneoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligneoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E355E8FE2B3384740010C062 /* BusTimetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTimetable.swift; sourceTree = "<group>"; };
+		E355E8FF2B3384740010C062 /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		E355E9012B33848B0010C062 /* BusStopsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsListView.swift; sourceTree = "<group>"; };
+		E355E9022B33848B0010C062 /* BusDirectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusDirectionsListView.swift; sourceTree = "<group>"; };
+		E355E9032B33848B0010C062 /* BusStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStore.swift; sourceTree = "<group>"; };
+		E355E9042B33848B0010C062 /* BusStopDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopDetails.swift; sourceTree = "<group>"; };
+		E355E9072B3384980010C062 /* SHA256+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SHA256+Extension.swift"; sourceTree = "<group>"; };
+		E355E9082B3384980010C062 /* MKMapItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapItem+Extension.swift"; sourceTree = "<group>"; };
+		E355E9092B3384980010C062 /* CLGeocoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLGeocoder+Extension.swift"; sourceTree = "<group>"; };
+		E355E90B2B3384A00010C062 /* MapDataResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataResults.swift; sourceTree = "<group>"; };
+		E355E90C2B3384E70010C062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bus_timetable_113_givors_venissieux.json; sourceTree = "<group>"; };
+		E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bus_timetable_113_venissieux_givors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				E355E8C82B3383DC0010C062 /* ligneoApp.swift */,
-				E355E8CA2B3383DC0010C062 /* ContentView.swift */,
-				E355E8CC2B3383DF0010C062 /* Assets.xcassets */,
+				E355E9002B33848B0010C062 /* Views */,
+				E355E8FD2B3384740010C062 /* Models */,
+				E355E90A2B3384A00010C062 /* Helpers */,
+				E355E9062B3384980010C062 /* Extensions */,
+				E355E90F2B3384F50010C062 /* Resources */,
 				E355E8CE2B3383DF0010C062 /* Preview Content */,
 			);
 			path = ligneo;
@@ -125,6 +150,54 @@
 				E355E8E52B3383DF0010C062 /* ligneoUITestsLaunchTests.swift */,
 			);
 			path = ligneoUITests;
+			sourceTree = "<group>";
+		};
+		E355E8FD2B3384740010C062 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E355E8FE2B3384740010C062 /* BusTimetable.swift */,
+				E355E8FF2B3384740010C062 /* BusStop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E355E9002B33848B0010C062 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E355E9012B33848B0010C062 /* BusStopsListView.swift */,
+				E355E9022B33848B0010C062 /* BusDirectionsListView.swift */,
+				E355E9032B33848B0010C062 /* BusStore.swift */,
+				E355E9042B33848B0010C062 /* BusStopDetails.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E355E9062B3384980010C062 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E355E9072B3384980010C062 /* SHA256+Extension.swift */,
+				E355E9082B3384980010C062 /* MKMapItem+Extension.swift */,
+				E355E9092B3384980010C062 /* CLGeocoder+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E355E90A2B3384A00010C062 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E355E90B2B3384A00010C062 /* MapDataResults.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E355E90F2B3384F50010C062 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E355E90C2B3384E70010C062 /* Assets.xcassets */,
+				E355E90E2B3384ED0010C062 /* bus_timetable_113_venissieux_givors.json */,
+				E355E90D2B3384EC0010C062 /* bus_timetable_113_givors_venissieux.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E355E91B2B3385F20010C062 /* bus_timetable_113_venissieux_givors.json in Resources */,
+				E355E9102B3385230010C062 /* Assets.xcassets in Resources */,
 				E355E8D02B3383DF0010C062 /* Preview Assets.xcassets in Resources */,
-				E355E8CD2B3383DF0010C062 /* Assets.xcassets in Resources */,
+				E355E91C2B3385F50010C062 /* bus_timetable_113_givors_venissieux.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E355E8CB2B3383DC0010C062 /* ContentView.swift in Sources */,
+				E355E91A2B3385490010C062 /* CLGeocoder+Extension.swift in Sources */,
+				E355E9132B3385310010C062 /* BusStore.swift in Sources */,
+				E355E9172B3385420010C062 /* MapDataResults.swift in Sources */,
 				E355E8C92B3383DC0010C062 /* ligneoApp.swift in Sources */,
+				E355E9112B33852E0010C062 /* BusStopsListView.swift in Sources */,
+				E355E9162B33853E0010C062 /* BusStop.swift in Sources */,
+				E355E9122B33852F0010C062 /* BusDirectionsListView.swift in Sources */,
+				E355E9182B3385450010C062 /* SHA256+Extension.swift in Sources */,
+				E355E9192B3385470010C062 /* MKMapItem+Extension.swift in Sources */,
+				E355E9152B33853C0010C062 /* BusTimetable.swift in Sources */,
+				E355E9142B3385330010C062 /* BusStopDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,11 +509,13 @@
 				DEVELOPMENT_TEAM = TBCK498J5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lignéo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +540,13 @@
 				DEVELOPMENT_TEAM = TBCK498J5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lignéo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
